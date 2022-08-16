@@ -1,6 +1,5 @@
 ﻿// Задать массив из 8 элементов, заполненных нулями и единицами вывести их на экран
-//   index      0    1   2   3   4   5   6   7
-// FillAraay - заполнить массив.
+
 void FillAraay(int[] numbers)  // Метод void не возвращает значения!!! (не нужен return)
 {
     int length = numbers.Length;
@@ -12,7 +11,6 @@ void FillAraay(int[] numbers)  // Метод void не возвращает зн
         index++;
     }
 }
-// PrintArray - распечатывает массив
 void PrintArray(int[] num)
 {
     int count = num.Length;
