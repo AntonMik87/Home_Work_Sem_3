@@ -15,7 +15,6 @@ for (int i = 0; i < array.Length; i++)
     {
         array[i] = -array[i];
     } 
-    Console.Write("  ");
+     Console.Write("  ");
     Console.WriteLine(array[i]);
-   
 }
