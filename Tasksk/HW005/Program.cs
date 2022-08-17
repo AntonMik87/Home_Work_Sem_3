@@ -9,7 +9,6 @@ for (int i = 0; i < array.Length; i++)
     Console.Write($"{array[i]}   ");
 }
 Console.WriteLine(" ");
-
 for (int a = 0; a < array.Length; a++)
 {
     if (array[a] % 2 == 0) chet++;
@@ -20,3 +19,21 @@ for (int a = 0; a < array.Length; a++)
 }
 Console.WriteLine($"Количество четных: {chet} ");
 Console.WriteLine($"Количество нечетных: {nechet} ");
+
+
+
+
+// int a = 0;
+// while (a < array.Length)
+// {
+//     if (array[a] % 2 == 0)
+//     {
+//         chet = chet + 1;
+//     }
+//     else
+//     {
+//         if (array[a] % 2 != 0)
+//             nechet = nechet + 1;
+//     }
+//     a++;
+// }
