@@ -15,4 +15,4 @@ for (int a = 0; a < array.Length; a++)
 
 
 }
-Console.Write($" Сумма элементов отрезка [10, 99]: {sum}  ");
+Console.Write($" Количество элементов отрезка [10, 99]: {sum}  ");
