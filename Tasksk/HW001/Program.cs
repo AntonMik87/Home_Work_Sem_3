@@ -24,3 +24,6 @@ void PrintArray(int[] num)
 int[] array = new int[8];
 FillAraay(array);
 PrintArray(array);
+
+// Резудьтат PS F:\Lessons\Hoom_Work_Sem_3\Tasksk\HW001> dotnet run
+// 1,0,1,1,0,1,1,0,
